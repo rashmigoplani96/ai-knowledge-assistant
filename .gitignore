@@ -1,0 +1,90 @@
+# ==========================
+# Java / Spring Boot
+# ==========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+logs/
+
+# ==========================
+# IntelliJ IDEA
+# ==========================
+.idea/
+*.iml
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# Eclipse
+# ==========================
+.project
+.classpath
+.settings/
+
+# ==========================
+# macOS
+# ==========================
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# ==========================
+# Angular / Node
+# ==========================
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.cache/
+frontend/coverage/
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================
+# Python
+# ==========================
+python-rag/.venv/
+python-rag/venv/
+python-rag/__pycache__/
+python-rag/.pytest_cache/
+python-rag/.mypy_cache/
+python-rag/*.pyc
+python-rag/*.pyo
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+*.env
+
+# ==========================
+# Uploaded Documents
+# ==========================
+documents/
+
+# ==========================
+# Vector Database
+# ==========================
+faiss_index/
+chroma_db/
+
+# ==========================
+# Temporary Files
+# ==========================
+tmp/
+temp/
+*.tmp
